@@ -1,0 +1,29 @@
+[Unit]
+Description=Prompt RAG Studio
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=prompt-rag
+Group=prompt-rag
+WorkingDirectory=/opt/prompt-rag
+EnvironmentFile=/etc/prompt-rag/prompt-rag.env
+ExecStart=/opt/prompt-rag/.venv/bin/prompt-rag serve
+Restart=on-failure
+RestartSec=3
+TimeoutStartSec=90
+TimeoutStopSec=30
+KillSignal=SIGINT
+UMask=0027
+LimitNOFILE=65535
+MemoryHigh=1536M
+MemoryMax=2G
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/prompt-rag/data /opt/prompt-rag/logs /opt/prompt-rag/backups
+
+[Install]
+WantedBy=multi-user.target

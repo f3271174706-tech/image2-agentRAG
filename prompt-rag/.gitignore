@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+web-v2/node_modules/
+web-v2/dist/
+web-v2/*.tsbuildinfo
+*.py[cod]
+.env
+data/*.db
+data/*.db-*
+data/models/
+release/

@@ -1,0 +1,13 @@
+[Unit]
+Description=Back up Prompt RAG SQLite database
+
+[Service]
+Type=oneshot
+User=prompt-rag
+Group=prompt-rag
+ExecStart=/opt/prompt-rag/deploy/backup.sh
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/prompt-rag/data /opt/prompt-rag/backups

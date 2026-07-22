@@ -1,0 +1,79 @@
+{
+  "profile-avatar": {
+    "slug": "profile-avatar",
+    "title": "Profile / Avatar",
+    "file": "profile-avatar.json",
+    "manifest_count": 1670,
+    "unique_records": 1670
+  },
+  "social-media-post": {
+    "slug": "social-media-post",
+    "title": "Social Media Post",
+    "file": "social-media-post.json",
+    "manifest_count": 4547,
+    "unique_records": 4547
+  },
+  "infographic-edu-visual": {
+    "slug": "infographic-edu-visual",
+    "title": "Infographic / Edu Visual",
+    "file": "infographic-edu-visual.json",
+    "manifest_count": 1275,
+    "unique_records": 1275
+  },
+  "youtube-thumbnail": {
+    "slug": "youtube-thumbnail",
+    "title": "YouTube Thumbnail",
+    "file": "youtube-thumbnail.json",
+    "manifest_count": 178,
+    "unique_records": 178
+  },
+  "comic-storyboard": {
+    "slug": "comic-storyboard",
+    "title": "Comic / Storyboard",
+    "file": "comic-storyboard.json",
+    "manifest_count": 1900,
+    "unique_records": 1900
+  },
+  "product-marketing": {
+    "slug": "product-marketing",
+    "title": "Product Marketing",
+    "file": "product-marketing.json",
+    "manifest_count": 3411,
+    "unique_records": 3411
+  },
+  "ecommerce-main-image": {
+    "slug": "ecommerce-main-image",
+    "title": "E-commerce Main Image",
+    "file": "ecommerce-main-image.json",
+    "manifest_count": 365,
+    "unique_records": 365
+  },
+  "game-asset": {
+    "slug": "game-asset",
+    "title": "Game Asset",
+    "file": "game-asset.json",
+    "manifest_count": 1590,
+    "unique_records": 1590
+  },
+  "poster-flyer": {
+    "slug": "poster-flyer",
+    "title": "Poster / Flyer",
+    "file": "poster-flyer.json",
+    "manifest_count": 3639,
+    "unique_records": 3639
+  },
+  "app-web-design": {
+    "slug": "app-web-design",
+    "title": "App / Web Design",
+    "file": "app-web-design.json",
+    "manifest_count": 869,
+    "unique_records": 869
+  },
+  "others": {
+    "slug": "others",
+    "title": "Uncategorized",
+    "file": "others.json",
+    "manifest_count": 311,
+    "unique_records": 311
+  }
+}

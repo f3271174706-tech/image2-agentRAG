@@ -1,0 +1,6 @@
+[submodule "data-source"]
+	path = data-source
+	url = https://github.com/YouMind-OpenLab/awesome-gpt-image-2.git
+[submodule "search-source"]
+	path = search-source
+	url = https://github.com/YouMind-OpenLab/gpt-image-2-prompts-search.git
